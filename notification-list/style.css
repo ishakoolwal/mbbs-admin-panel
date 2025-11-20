@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.nav-bar{
+    padding: 10px;
+}
+
+nav span{
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    
+}   
+header{
+    border-bottom: 1px solid #D9DEE4;
+}
+nav{
+    margin-inline-start: 10px;
+    margin-inline-end: 30px;
+}
+.right-side{
+    width: 100%;
+    text-align: end;
+}
+.left-side{
+    width: 50%;
+}
+.notification-list{
+    border: 1px solid #D6D9FF;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.161);
+    margin-inline: 20px;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+.notification-list-inner input{
+    border: none;
+    border-bottom: 1px solid #EEF0F7;
+    padding: 20px;
+    padding-inline: 55px;
+    background-image: url(search3.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 10px;
+    font-size: 20px;
+}
+.notification-list-inner button{
+    padding: 20px;
+    border: none;
+    background-color: #FF6500;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.notification-list-inner{
+    margin-left: 20px;
+    padding-top: 30px;
+}
+.table table thead tr th{
+    background-color: #123458;
+    color: white;
+}
+.table{
+    padding-top: 27px;
+}
+.heading-section{
+    padding-top: 30px;
+    margin-inline: 20px;
+}
+
+.footer-section{
+    padding: 30px;
+    margin-top: 35px;
+    background-color: #D8F6F5;
+    font-size: 20px;
+    
+    font-weight: 600;
+}

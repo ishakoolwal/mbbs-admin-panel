@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.nav-bar{
+    padding: 10px;
+}
+
+nav span{
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    
+}   
+header{
+    border-bottom: 1px solid #D9DEE4;
+}
+nav{
+    margin-inline-start: 10px;
+    margin-inline-end: 30px;
+}
+.textarea textarea{
+    width: 100%;
+    
+}
+.notification-box{
+    border: 1px solid rgb(244, 232, 232);
+    box-shadow: 2px 2px 8px;
+    border-radius: 6px;
+    margin-inline: 30px;
+}
+.heading{
+    margin-block: 50px;
+}
+.push-notification-inner{
+    margin-bottom: 20px;
+    gap: 10px;
+}
+.push-notification-inner h5{
+    font-weight: bold;
+    color: rgb(89, 86, 86);
+    
+}
+.button button{
+    border: none;
+    padding-block: 15px;
+    padding-inline: 75px;
+    background-color: rgb(255, 131, 86);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.notification-inner{
+        margin-inline: 70px;
+        padding-block-end: 50px;
+        padding-block-start: 20px;
+}
+
+.notification-box-inner{
+    margin-top: 40px;
+}
+.heading h2{
+    margin-left:18px;
+}
+.footer-section{
+    padding: 30px;
+    text-align: center;
+    margin-top: 40px;
+    background-color:#D8F6F5;
+}
+.footer-section h4 a{
+    color: black;
+    text-decoration: none;
+}
+.footer-section h4 a:hover{
+    color: rgb(79, 79, 174);
+}
