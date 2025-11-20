@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+header {
+    margin-left: 250px;
+}
+.heading {
+    margin-inline: 20px;
+    padding-top: 30px;
+}
+.main-page {
+    background-color: #e0e0e0;
+
+}
+.right-col {
+    padding: 20px;
+    margin-left: 250px;
+    position: relative;
+    z-index: 1;
+}
+.right-side {
+    width: 100%;
+    text-align: end;
+    align-items: center;
+}
+.left-side {
+    width: 50%;
+}
+.right-side input {
+    padding: 8px;
+    background-image: url(search\ \(3\).png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: 12px;
+    font-size: 20px;
+    padding-inline: 40px;
+    border-radius: 6px;
+    border: none;
+    border: 1px solid rgb(227, 224, 224);
+    margin-bottom: 20px;
+}
+.right-side input::placeholder {
+    margin-left: 20px;
+}
+.table-section {
+    overflow: hidden;
+    /* Required to clip border-radius */
+    border-radius: 10px;
+    border: 1px solid transparent;
+
+}
+.table-section table {
+    border-collapse: collapse;
+    /* Important for rounding corners */
+    width: 100%;
+}
+
+.table thead tr th {
+    background-color: rgb(192 205 205);
+}
+.table tbody td {
+    padding: 16px;
+}
+.table tbody tr td button.approved {
+    background-color: rgb(211, 253, 211);
+    border: 1px solid green;
+    padding: 7px;
+    color: rgb(3, 73, 3);
+    border-radius: 8px;
+}
+
+.table tbody tr td button.pending {
+    background-color: rgb(243, 207, 207);
+    border: 1px solid rgb(225, 80, 80);
+    padding: 7px;
+    color: rgb(152, 86, 86);
+    border-radius: 8px;
+}
+.table tbody tr td i {
+    background-color: rgb(223, 232, 232);
+    padding: 7px;
+    border-radius: 5px;
+}
+.right-side select {
+    padding: 9px;
+    font-size: 20px;
+    padding-inline-end: 30px;
+    border-radius: 6px;
+    border: none;
+    border: 1px solid rgb(227, 224, 224);
+    color: rgb(105, 104, 102);
+
+}
+.pagination {
+    width: 100%;
+}
+ul li a.page-link {
+    color: black;
+}
+.sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0f2323;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-bottom-right-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.logo {
+    text-align: center;
+    margin-top: 40px;
+}
+.logo a i {
+    color: white;
+    font-size: 40px
+}
+ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+}
+ul li a i {
+    margin-right: 10px;
+    color: rgb(168, 169, 63);
+}
+ul li {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.arrow {
+    text-align: end;
+}
+.arrow i {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.sidebar-inner ul li {
+    padding: 9px 1px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.sidebar-inner ul li a:hover {
+    background-color: #ffffff;
+    color: black;
+    border-radius: 5px;
+    padding: 7px;
+}
+
