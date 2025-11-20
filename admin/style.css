@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    border-bottom: 1px solid #D9DEE4;
+}
+
+.form-box{
+    border-radius: 55px;
+    box-shadow: 0px 0px 8px;
+    margin-inline: 16px;
+    
+
+}
+.profile-pic{
+    width: 179px;
+    height: 172px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    left: 646px;
+    border: 1px solid #000000;
+    bottom: -88px;
+}
+
+.nav-bar{
+    padding: 10px;
+}
+
+nav span{
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+.form{
+   border: 1px solid black;
+    border: 10px;
+    padding: 10px;
+}
+.details-section form input{
+    padding-block: 10px;
+}
+.password-section form input{
+    padding-block: 10px;
+}
+nav{
+    margin-inline-start: 10px;
+    margin-inline-end: 30px;
+}
+
+
+.form-control{
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+}
+
+
+
+.profile-section{
+    background-color:#5a4b4c;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    position: relative;
+
+
+}
+.main-page h2{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-block-end: 40px;
+    padding-inline-start: 20px;
+}
+
+.submit-btn{
+    padding: 12px 72px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    background-color: #928580;
+    color: #fff;
+    margin-block-start: 50px;
+}
+.form-section{
+    width: 100%;
+    margin: 0%;
+}
+label{
+    margin-block-end: 10px;
+    color: #343a40;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+input{
+    height: 45px;
+    font-weight: bold;
+    border-color: #B3B3B3;
+    border-radius: 4px;
+    width: 80%;
+    color: #343640;
+    font-weight: bold;
+    border-color: #B3B3B3;
+}
+.form-outer{
+    
+    justify-items: center;
+}
+.form-inner{
+    width: 95%;
+    border: 1px solid #EEF0F7;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    border-radius: 6px;
+}
+.form-outer{
+    padding-top: 150px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-section{
+    background-color: #b5b1b1;
+    padding: 30px 45px;
+}
+.footer-left p{
+    color: #343640;
+    font-size: 20px;
+    font-weight: 600;
+}
+h4.heading{
+    border-bottom: 1px solid #EEF0F7;
+    padding-bottom: 20px;
+}
