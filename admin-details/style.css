@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width: 100%;
+    text-align: end;
+    border-bottom: 1px solid;
+    padding: 20px;
+    gap: 20px;
+  
+}
+.icon1{
+    width: 100%;
+}
+.right-heading{
+    width: 100%;
+    text-align: end;
+    
+}
+.left-heading{
+    width: 50%;
+    color: rgb(16, 90, 90);
+}
+.right-side{
+    width: 100%;
+    text-align: end;
+}
+.right-side button{
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(35, 35, 74);
+    color: white;
+}
+.left-side{
+    width: 50%;
+}
+.admin-box{
+    border: 1px solid rgb(214, 217, 255);
+    margin-inline: 20px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 2px 2px 8px;
+    border-radius: 5px;
+}
+.admin{
+    margin-inline: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.admin-inner-headings{
+    margin-inline: 20px;
+    margin-top: 58px;
+}
+.heading{
+    margin-top: 30px;
+    margin-inline: 20px
+}
+.submit-button button{
+    margin-top: 36px;
+    background-color: #60b460;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    padding-inline: 45px;
+    color: white;
+    margin-bottom: 51px;
+}
+.right-heading h5{
+    color: rgb(16, 90, 90);
+}
+.right-heading span{
+    color: black;
+}
+label{
+    font-size: 17px;
+}
