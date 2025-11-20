@@ -1,0 +1,316 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    
+}
+.header-contents{
+    border-bottom: 1px solid rgb(246, 245, 245);
+    box-shadow: 0px 0px 5px;
+    padding: 20px;
+}
+.right-side i{
+    font-size: 20px;
+
+}
+.left-side{
+    width: 50%;
+}
+.icon img{
+    color: #707793;
+}
+
+.right-heading p a{
+    text-decoration: none;
+    color: #5d7186;
+}
+.right-heading p a:hover{
+    color: rgb(38, 38, 184);
+}
+.left-side input{
+    background-image:url(search\ \(5\).png);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: 15px;
+    padding-inline-start: 40px;
+    border-radius: 50px;
+    padding-block: 10px;
+    font-size: 18px;
+    border: none;
+    background-color: #f6f8fb;
+
+}
+.left-heading h4{
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: #313b5e;
+}
+.left-side input::placeholder{
+}
+.right-heading{
+    width: 100%;
+    text-align: end;
+}
+.right-heading p{
+   color: #5d7186;
+   font-size: 14px;
+}
+.heading{
+    margin-top: 20px;
+}
+.right-head{
+    width: 100%;
+    text-align: end;
+}
+.left-head{
+    width: 80%;
+}
+.right-head button{
+    border: none;
+    background-color: transparent;
+    padding-inline: 8px;
+    padding-block: 5px;
+    border: 1px solid rgb(233, 228, 228);
+    font-size: 12px;
+    cursor: pointer;
+}
+.right-button button{
+    border-radius: 5px;
+    border: none;
+    font-size: 13px;
+    background-color: rgb(228, 232, 244);
+    color: blue;
+    padding-inline: 10px;
+    padding-block: 5px;
+}
+.right-button button:hover{
+    background-color: rgb(48, 48, 224);
+    color: white;
+}
+table tbody tr td button.green{
+   border: none;
+   color: #04cb47;
+   background-color: #c4e2ce;
+   border-radius: 5px;
+   font-size: 12px;
+   padding: 2px;
+}
+table tbody tr td button.yellow{
+   border: none;
+   color: #f6bc01;
+   background-color: #f1e7c6;
+   border-radius: 5px;
+   font-size: 12px;
+   padding: 2px;
+}
+table tbody tr td button.red{
+   border: none;
+   color: #f86d15;
+   background-color: #f4dbcb;
+   border-radius: 5px;
+   font-size: 12px;
+   padding: 2px;
+}
+
+.card-inner{
+    background-color: white;
+}
+
+.card-right-heading{
+    width: 100%;
+    text-align: end;
+
+}
+.table-section table thead tr th{
+    background-color: #e9e7e7;
+    color: #595a5b;
+}
+
+.table-section1 table thead tr th{
+    background-color: #e9e7e7;
+    color: #595a5b;
+}
+.para p{
+    text-align: left;
+    border-radius: 5px;
+    margin-inline: 30px;
+    margin-top: 30px;
+    background-color: #ccf0fa;
+    color: #00485c;
+    font-size: 15px;
+    padding-inline: 10px;
+}
+.card-heading{
+        border-bottom: 1px dashed #d8d4d4;
+}
+.footer-section{
+    padding: 20px;
+    background-color: rgb(234, 234, 234);
+    text-align: center;
+    margin-top: 20px;
+    color: #6c6d6c;
+}
+.header-icon i{
+    font-size: 30px;
+   
+    
+}
+.bag-icon {
+    width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0155f41a;
+ 
+    
+}
+
+.bag-icon2 {
+    width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #04cb471a;
+ 
+    
+}
+
+.bag-icon3 {
+    width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #04cb471a;
+ 
+    
+}
+.bag-icon4 {
+    width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0155f41a;
+ 
+    
+}
+.card-head p{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.card-head h3{
+    font-size: 1.7rem;
+    color: #313b5e;
+}
+a.page-link {
+    border: none;
+}
+a.page-link.active {
+    height: 31px;
+    border-radius: 50%;
+}
+span.Completed {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: #04cb47;
+    border-radius: 50%;
+}
+
+span.Processing {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: #0155f4;
+    border-radius: 50%;
+}
+.table-section table tbody tr td{
+    color: #9da09e;
+    font-size: 13px;
+}
+
+.table-section1 table tbody tr td{
+    color: #9da09e;
+    font-size: 13px;
+}
+.table-section table tbody tr:hover{
+    background-color: rgb(0 0 0 / 2%);
+}
+.table-section1 table tbody tr td{
+    color: #9da09e;
+}
+.table-section table tbody tr td button{
+    background-color: #04cb47;
+}
+.sidebar{
+    width: 250px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+}
+/* .dashboard-section{
+    margin-left: 250px;
+} */
+ span.count {
+    font-size: 13px;
+}
+.left-head h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: #313b5e;
+}
+.table-section1 table tbody tr td {
+    align-items: center;
+}
+.table-section table tbody tr td{
+    padding-top: 13px;
+}
+.table-section table tbody tr{
+    border-style: solid;
+    border-color: black;
+}
+.table-section1 table tbody tr{
+    border-style: solid;
+    border-color: black;
+}
+.icon button{
+    border: none;
+    background-color: transparent;
+}
+.icon button img:hover{
+   
+}
+.card{
+    box-shadow: var(--bs-box-shadow);
+}
+.table-section table tbody tr td a{
+    text-decoration: none;
+    color:#9da09e ;
+
+}
+.table-section table tbody tr td a:hover{
+    color: rgb(66, 66, 177);
+}
+.card-right-heading button i{
+    margin-right: 5px;
+    font-size: 8px;
+    
+}
