@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="nav-menu">
+                <nav class="navbar navbar-custom d-flex justify-content-between align-items-center">
+                    <div class="d-flex align-items-center">
+                         <img src="back.png" style="width: 30px; height: 30px;">
+                      <span>Sophia</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-5">
+
+                     <img src="chat.png" style="width: 30px; height: 30px; cursor: pointer;" data-bs-toggle="modal" data-bs-target="#myModal">
+                      <div class="modal" id="myModal">
+                          <div class="modal-dialog modal-dialog-centered" style="max-width: 650px;">
+                             <div class="modal-content">
+
+      
+                               <div class="modal-header">
+                                  <h4 class="modal-title">Support</h4>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                               </div>
+
+      
+                              <div class="modal-body">
+                                <div class="row align-items-center">
+                                    <div class="col-md-5">
+                                        <img src="support.png" style="width: 100%; height: 100%;">
+                                    </div>
+                                    <div class="col-md-7 text-left">
+                                       <ul class="list-unstyled">
+                                        <li>
+                                            <span><i class="fa-solid fa-phone"></i></span>
+                                            <a href="">+91 9057801818</a>
+                                        </li>
+                                        <li class="d-flex align-items-center">
+                                            <span><i class="fa-solid fa-envelope"></i></span>
+                                            <a href="">reminder.daasuapp@gmail.com</a>
+                                        </li>
+                                       </ul>
+                                    </div>
+                                </div>
+                              </div>
+
+      
+      
+
+                           </div>
+                          </div>
+                        </div>
+                     <img src="exit.png" style="width: 25px; height: 25px; cursor: pointer;" data-bs-toggle="modal" data-bs-target="#exitModal">
+                     <div class="modal" id="exitModal">
+                          <div class="modal-dialog modal-dialog-centered" style="max-width: 500px;">
+                             <div class="modal-content">
+
+      
+                               <div class="modal-header">
+                                  <h4 class="modal-title">Log Out</h4>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                               </div>
+
+      
+                              <div class="modal-body">
+                                <div class="row align-items-center text-center">
+                                    <h4>Warning !!</h4>
+                                    <p>Are you sure you want to Log Out ?</p>
+                                    <div class="modal-buttons g-3">
+                                        <button class="btn1">no</button>
+                                        <button class="btn2">Yes</button>
+                                    </div>
+                                </div>
+                              </div>
+
+      
+      
+
+                           </div>
+                          </div>
+                        </div>
+                              
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="heading d-flex">
+        <div class="left-side">
+            <h3>Plan List</h3>
+        </div>
+        <div class="right-side">
+            <i class="fa-solid fa-plus"></i>
+        </div>
+    </div>
+    <section>
+        <div class="plan">
+            <div class="plan-box d-flex">
+                <div class="plan-inner">
+                    <input type="search" placeholder="Search">
+                    <button>Search</button>
+                </div>
+                <div class="filter-option">
+                    <select name="" id="">
+                        <option value="">Filter</option>
+                        <option value="">Free Plan</option>
+                        <option value="">Paid Plan</option>
+                    </select>
+                </div>
+            </div>
+            <div class="table-section">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>PACKAGE NAME</th>
+                            <th>PACKAGE TYPE</th>
+                            <th>DESCRIPTION</th>
+                            <th>VALIDATE</th>
+                            <th>PRICE</th>
+                            <th>CREATED DATE</th>
+                            <th>ACTIVE STATUS</th>
+                            <th>ACTION</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><button>Free</button></td>
+                            <td>paid</td>
+                            <td>free basic plan</td>
+                            <td>365</td>
+                            <td>0</td>
+                            <td>07-03-2025</td>
+                            <td>active</td>
+                            <td><img src="dots (2).png" style="width: 30px; height: 30px;"></td>
+                        </tr>
+                        <tr>
+                            <td><button>Free</button></td>
+                            <td>paid</td>
+                            <td>free basic plan</td>
+                            <td>365</td>
+                            <td>0</td>
+                            <td>07-03-2025</td>
+                            <td>active</td>
+                            <td><img src="dots (2).png" style="width: 30px; height: 30px;"></td>
+                        </tr>
+                        <tr>
+                            <td><button>Free</button></td>
+                            <td>paid</td>
+                            <td>free basic plan</td>
+                            <td>365</td>
+                            <td>0</td>
+                            <td>07-03-2025</td>
+                            <td>active</td>
+                            <td><img src="dots (2).png" style="width: 30px; height: 30px;"></td>
+                        </tr>
+                        <tr>
+                            <td><button>Free</button></td>
+                            <td>paid</td>
+                            <td>free basic plan</td>
+                            <td>365</td>
+                            <td>0</td>
+                            <td>07-03-2025</td>
+                            <td>active</td>
+                            <td><img src="dots (2).png" style="width: 30px; height: 30px;"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-section">
+            <p>© 2024 Made By True Value Infosoft</p>
+        </div>
+    </footer>
+</body>
+</html>
