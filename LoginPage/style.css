@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h2,p, span, a{
+     font-family: "Poppins", sans-serif;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin-top: 25px;
+   
+}
+
+
+.right-section h2{
+    font-size: 40px;
+    text-align: center;
+}
+.right-section p{
+    margin-top: 20px;
+    text-align: center;
+}
+.right-section{
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid black;
+    display: block; */
+    
+}
+form{
+    margin-top: 50px;
+    text-align: center;
+}
+form input{
+    width: 500px;
+    padding: 15px;
+    margin-bottom: 10px;
+    /* border: 1px solid; */
+    border-radius: 30px;
+    font-size: 15px;
+}
+form input::placeholder{
+    padding-left: 20px;
+}
+button{
+    width: 500px;
+    padding: 15px;
+    margin-bottom: 10px;
+    /* border: 1px solid; */
+    border-radius: 30px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    margin-bottom: 46px;
+    
+}
+p.forgot{
+    text-align: right;
+    margin: 0px 0 20px 0;
+        width: 90%;
+}
+.continue{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 500px;
+    margin-left: 50px;
+}
+.continue::before,.continue::after
+{
+    content:"";
+    flex: 1;
+    height: 0.2px;
+    background-color: rgb(169, 168, 168);
+    
+}
+.continue::before{
+    margin-right: 10px;
+}
+.continue::after{
+    margin-left: 10px;
+}
+.social-icons{
+    margin-top: 30px;
+    text-align: center;
+}
+.register{
+    text-align: center;
+    margin-top: 50px;
+}
+.register a{
+    text-decoration: none;
+    color: black;
+    
+    
+}
+.register span{
+    color: rgb(26, 125, 12);
+}
+.left-section img{
+    height: 650px;
+    width: 650px;
+   display: block;
+}
+
+
